@@ -19,6 +19,6 @@ jobs:
         with:
           server: f34-preview.awardspace.net
           username: 4431943 #4431943_admin
-          password: ${{ secrets.GITHUB }}
+          password: ${{ secrets.password }}
           server-dir: home/www/akaexcel.atwebpages.com/
 
